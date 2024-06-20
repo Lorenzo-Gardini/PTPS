@@ -17,7 +17,7 @@ setup(
     setup_requires=['setuptools_scm'],
     packages=find_packages(),
     install_requires=parse_requirements('requirements.txt'),
-    author='Lorenzo',
+    author='Lorenzo Gardini',
     author_email='l.gardo98@gmail.com',
     description='prepydf is a preprocessing python library for Pandas DataFrame',
     long_description=open('README.md').read(),
