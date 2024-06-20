@@ -1,7 +1,7 @@
 import pytest
 
 from tests.test_utilities import fit_transform_and_compare, check_attributes, expected
-from src.preprocessing import Drop
+from src.prepydf.preprocessing import Drop
 
 single_feature = 'integer'
 multiple_feature = ['integer', 'float']

@@ -8,7 +8,7 @@ from pandas import DataFrame
 from pandas.testing import assert_frame_equal
 from typeguard import typechecked
 
-from src.preprocessing import DataFramePreprocessFunction
+from src.prepydf.preprocessing import DataFramePreprocessFunction
 
 __all__ = ['fit_transform_and_compare', 'check_attributes', 'full_dataframe', 'expected']
 

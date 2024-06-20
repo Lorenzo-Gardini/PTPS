@@ -1,6 +1,6 @@
 import pytest
 
-from src.preprocessing import DropDuplicates
+from src.prepydf.preprocessing import DropDuplicates
 from tests.test_utilities import fit_transform_and_compare, check_attributes, expected
 
 single_feature = 'categorical_repeated'

@@ -1,6 +1,6 @@
 import pytest
 
-from src.preprocessing import Map
+from src.prepydf.preprocessing import Map
 from tests.test_utilities import fit_transform_and_compare, check_attributes, expected
 
 dict_transform = {'most': 3}

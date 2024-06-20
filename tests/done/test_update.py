@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from src.preprocessing import Update
+from src.prepydf.preprocessing import Update
 from tests.test_utilities import fit_transform_and_compare, check_attributes, full_dataframe, expected
 
 

@@ -4,7 +4,7 @@ import pandas as pd
 import pytest
 
 from tests.test_utilities import fit_transform_and_compare, check_attributes, expected
-from src.preprocessing import FillNa
+from src.prepydf.preprocessing import FillNa
 
 fill_values = [0, "text", True, pd.Timestamp(2017, 1, 1, 12)]
 fill_methods: List[Literal['backfill', 'bfill', 'pad', 'ffill']] = ['backfill', 'bfill', 'pad', 'ffill']

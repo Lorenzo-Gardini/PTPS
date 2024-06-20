@@ -1,5 +1,7 @@
 from setuptools import setup, find_packages
 
+library_to_be_removed = ['pytest-cov', 'pytest']
+
 
 def parse_requirements(filename):
     with open(filename, 'r') as file:

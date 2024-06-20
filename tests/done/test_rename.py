@@ -1,4 +1,4 @@
-from src.preprocessing import Rename
+from src.prepydf.preprocessing import Rename
 from tests.test_utilities import fit_transform_and_compare, check_attributes, expected
 
 renames = {'integer': 'new_integer', 'float': 'new_float'}

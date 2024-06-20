@@ -1,6 +1,6 @@
 import pytest
 
-from src.preprocessing import Clip
+from src.prepydf.preprocessing import Clip
 from tests.test_utilities import check_attributes, fit_transform_and_compare, expected
 
 single_feature = 'integer'

@@ -2,7 +2,7 @@ import math
 
 import pytest
 
-from src.preprocessing import Round
+from src.prepydf.preprocessing import Round
 from tests.test_utilities import fit_transform_and_compare, check_attributes, expected
 
 column = 'float'

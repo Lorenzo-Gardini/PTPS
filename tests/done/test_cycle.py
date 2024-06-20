@@ -2,7 +2,7 @@ import numpy as np
 import pytest
 
 from tests.test_utilities import fit_transform_and_compare, check_attributes, full_dataframe, expected
-from src.preprocessing import Cycle
+from src.prepydf.preprocessing import Cycle
 
 col_name = 'repeated_integers'
 not_existing_col = 'I_dont_exist'

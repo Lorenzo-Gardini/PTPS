@@ -1,8 +1,8 @@
 import pytest
 
-from src.commons import at_least_list
+from src.prepydf.commons import at_least_list
 from tests.test_utilities import check_attributes, fit_transform_and_compare, expected
-from src.preprocessing import DropNa
+from src.prepydf.preprocessing import DropNa
 
 single_feature = 'nan_numeric'
 multiple_feature = ['nan_numeric', 'nan_categorical']

@@ -1,7 +1,7 @@
 import pytest
 from pandas import DataFrame
 
-from src.preprocessing import Select
+from src.prepydf.preprocessing import Select
 from tests.test_utilities import fit_transform_and_compare, check_attributes, expected
 
 one_feature = 'integer'
