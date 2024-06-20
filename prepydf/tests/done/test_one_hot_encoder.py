@@ -2,7 +2,7 @@ import pandas as pd
 import pytest
 
 from prepydf.preprocessing import OneHotEncode
-from prepydf.tests.test_utilities import check_attributes, fit_transform_and_compare
+from prepydf.tests.test_utilities import check_attributes, fit_transform_and_compare, expected
 
 multi_categorical_bar = 'multi_categorical_|'
 multi_categorical_hashtag = 'multi_categorical_#'

@@ -3,7 +3,7 @@ import pandas as pd
 import pytest
 
 from prepydf.preprocessing import Update
-from prepydf.tests.test_utilities import fit_transform_and_compare, check_attributes, full_dataframe
+from prepydf.tests.test_utilities import fit_transform_and_compare, check_attributes, full_dataframe, expected
 
 update_dictionary = {
     'new_integer': np.arange(0, len(full_dataframe())),

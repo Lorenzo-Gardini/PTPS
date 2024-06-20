@@ -4,9 +4,7 @@ import pytest
 from pandas import Series
 
 from prepydf.preprocessing import ExtractDate
-from prepydf.tests.test_utilities import (check_attributes,
-                                          fit_transform_and_compare,
-                                          full_dataframe)
+from prepydf.tests.test_utilities import check_attributes, fit_transform_and_compare, full_dataframe, expected
 
 feature = 'date_time'
 feature_2 = 'date_time_2'

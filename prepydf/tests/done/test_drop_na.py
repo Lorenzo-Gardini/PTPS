@@ -1,7 +1,7 @@
 import pytest
 
 from prepydf.commons import at_least_list
-from prepydf.tests.test_utilities import check_attributes, fit_transform_and_compare
+from prepydf.tests.test_utilities import check_attributes, fit_transform_and_compare, expected
 from prepydf.preprocessing import DropNa
 
 single_feature = 'nan_numeric'

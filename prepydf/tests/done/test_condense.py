@@ -1,7 +1,7 @@
 import pytest
 
 from prepydf.preprocessing import Condense
-from prepydf.tests.test_utilities import fit_transform_and_compare, check_attributes
+from prepydf.tests.test_utilities import fit_transform_and_compare, check_attributes, expected
 
 categorical_condense = 'categorical_repeated'
 numerical_condense = 'numerical_repeated'

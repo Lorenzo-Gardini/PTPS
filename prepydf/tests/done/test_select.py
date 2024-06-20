@@ -2,7 +2,7 @@ import pytest
 from pandas import DataFrame
 
 from prepydf.preprocessing import Select
-from prepydf.tests.test_utilities import fit_transform_and_compare, check_attributes
+from prepydf.tests.test_utilities import fit_transform_and_compare, check_attributes, expected
 
 one_feature = 'integer'
 multiple_features = ['integer', 'float']

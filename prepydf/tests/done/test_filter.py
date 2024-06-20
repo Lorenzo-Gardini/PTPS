@@ -3,7 +3,7 @@ import pytest
 from pandas import DataFrame
 
 from prepydf.preprocessing import Filter
-from prepydf.tests.test_utilities import fit_transform_and_compare, check_attributes
+from prepydf.tests.test_utilities import fit_transform_and_compare, check_attributes, expected
 
 
 def condition(dataframe: DataFrame):

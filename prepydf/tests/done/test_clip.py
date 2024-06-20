@@ -1,7 +1,7 @@
 import pytest
 
 from prepydf.preprocessing import Clip
-from prepydf.tests.test_utilities import check_attributes, fit_transform_and_compare
+from prepydf.tests.test_utilities import check_attributes, fit_transform_and_compare, expected
 
 single_feature = 'integer'
 negative_feature = 'negative_integer'

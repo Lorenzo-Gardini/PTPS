@@ -1,6 +1,6 @@
 import pytest
 
-from prepydf.tests.test_utilities import fit_transform_and_compare, check_attributes
+from prepydf.tests.test_utilities import fit_transform_and_compare, check_attributes, expected
 from prepydf.preprocessing import Drop
 
 single_feature = 'integer'

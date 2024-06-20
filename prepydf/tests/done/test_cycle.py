@@ -1,7 +1,7 @@
 import numpy as np
 import pytest
 
-from prepydf.tests.test_utilities import fit_transform_and_compare, check_attributes, full_dataframe
+from prepydf.tests.test_utilities import fit_transform_and_compare, check_attributes, full_dataframe, expected
 from prepydf.preprocessing import Cycle
 
 col_name = 'repeated_integers'

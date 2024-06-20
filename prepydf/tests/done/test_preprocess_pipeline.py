@@ -1,7 +1,7 @@
 import pytest
 
 from prepydf.preprocessing import PreprocessPipeline, Select, Drop, Bin
-from prepydf.tests.test_utilities import check_attributes, fit_transform_and_compare
+from prepydf.tests.test_utilities import check_attributes, fit_transform_and_compare, expected
 
 preprocess_functions = [Drop('float'), Bin('integer', bins=2)]
 breaking_preprocess_functions = [Select('non present column')] + preprocess_functions

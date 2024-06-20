@@ -3,7 +3,7 @@ import pandas as pd
 import pytest
 from sklearn.exceptions import NotFittedError
 from prepydf.preprocessing import Bin
-from prepydf.tests.test_utilities import check_attributes, fit_transform_and_compare
+from prepydf.tests.test_utilities import check_attributes, fit_transform_and_compare, expected
 
 column = 'float'
 n_bins = 3

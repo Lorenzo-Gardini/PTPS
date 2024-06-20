@@ -1,7 +1,7 @@
 import pytest
 
 from prepydf.preprocessing import DropDuplicates
-from prepydf.tests.test_utilities import fit_transform_and_compare, check_attributes
+from prepydf.tests.test_utilities import fit_transform_and_compare, check_attributes, expected
 
 single_feature = 'categorical_repeated'
 multiple_feature = ['numerical_repeated', 'categorical_repeated']

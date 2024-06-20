@@ -1,7 +1,7 @@
 import pytest
 
 from prepydf.preprocessing import Map
-from prepydf.tests.test_utilities import fit_transform_and_compare, check_attributes
+from prepydf.tests.test_utilities import fit_transform_and_compare, check_attributes, expected
 
 dict_transform = {'most': 3}
 dict_feature = 'categorical_repeated'
