@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import pytest
 from sklearn.exceptions import NotFittedError
-from prepydf import Bin
+from prepydf.preprocessing import Bin
 from prepydf.tests.test_utilities import check_attributes, fit_transform_and_compare
 
 column = 'float'

@@ -1,7 +1,7 @@
 import pandas as pd
 import pytest
 
-from prepydf import OneHotEncode
+from prepydf.preprocessing import OneHotEncode
 from prepydf.tests.test_utilities import check_attributes, fit_transform_and_compare
 
 multi_categorical_bar = 'multi_categorical_|'

@@ -1,7 +1,7 @@
 import pytest
 from sklearn import preprocessing
 from prepydf.tests.test_utilities import check_attributes, fit_transform_and_compare
-from prepydf import LabelEncoder
+from prepydf.preprocessing import LabelEncoder
 from pandas.testing import assert_frame_equal
 
 feature = 'integer'

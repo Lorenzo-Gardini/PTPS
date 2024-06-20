@@ -2,7 +2,7 @@ import numpy as np
 import pytest
 from pandas import DataFrame
 
-from prepydf import Filter
+from prepydf.preprocessing import Filter
 from prepydf.tests.test_utilities import fit_transform_and_compare, check_attributes
 
 

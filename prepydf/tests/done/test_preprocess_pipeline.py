@@ -1,6 +1,6 @@
 import pytest
 
-from prepydf import PreprocessPipeline, Select, Drop, Bin
+from prepydf.preprocessing import PreprocessPipeline, Select, Drop, Bin
 from prepydf.tests.test_utilities import check_attributes, fit_transform_and_compare
 
 preprocess_functions = [Drop('float'), Bin('integer', bins=2)]

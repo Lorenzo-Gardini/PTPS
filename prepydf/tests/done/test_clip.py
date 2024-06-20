@@ -1,6 +1,6 @@
 import pytest
 
-from prepydf import Clip
+from prepydf.preprocessing import Clip
 from prepydf.tests.test_utilities import check_attributes, fit_transform_and_compare
 
 single_feature = 'integer'

@@ -1,6 +1,6 @@
 import pytest
 
-from prepydf import Map
+from prepydf.preprocessing import Map
 from prepydf.tests.test_utilities import fit_transform_and_compare, check_attributes
 
 dict_transform = {'most': 3}

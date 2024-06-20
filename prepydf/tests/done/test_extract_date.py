@@ -3,7 +3,7 @@ from typing import Dict
 import pytest
 from pandas import Series
 
-from prepydf import ExtractDate
+from prepydf.preprocessing import ExtractDate
 from prepydf.tests.test_utilities import (check_attributes,
                                           fit_transform_and_compare,
                                           full_dataframe)

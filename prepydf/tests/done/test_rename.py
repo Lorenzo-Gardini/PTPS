@@ -1,4 +1,4 @@
-from prepydf import Rename
+from prepydf.preprocessing import Rename
 from prepydf.tests.test_utilities import fit_transform_and_compare, check_attributes
 
 renames = {'integer': 'new_integer', 'float': 'new_float'}

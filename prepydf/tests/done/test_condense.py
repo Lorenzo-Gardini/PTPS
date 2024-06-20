@@ -1,6 +1,6 @@
 import pytest
 
-from prepydf import Condense
+from prepydf.preprocessing import Condense
 from prepydf.tests.test_utilities import fit_transform_and_compare, check_attributes
 
 categorical_condense = 'categorical_repeated'
